@@ -265,6 +265,31 @@ body > footer > div > a {
     top: 4595px;
 }
 
+#art12 {
+    position: absolute;
+    top: 340px;
+}
+
+#art22 {
+    position: absolute;
+    top: 1240px;
+}
+
+#art32 {
+    position: absolute;
+    top: 2205px;
+}
+
+#art42 {
+    position: absolute;
+    top: 3115px;
+}
+
+#art52 {
+    position: absolute;
+    top: 4105px;
+}
+
 .all_images {
     width: 298px;
     height: 234px;
