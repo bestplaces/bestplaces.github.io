@@ -10,6 +10,7 @@
         html {
             margin: 0;
             padding: 0;
+            background-color: #edeef0;
         }
         main {
             padding-left: 30px;
@@ -54,6 +55,7 @@
             margin: 0 auto;
             font-family: 'PT Sans';
             font-size: 1.1rem;
+            border-radius: 5px;
         }
         h1 {
             color: #333;
