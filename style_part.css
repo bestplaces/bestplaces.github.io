@@ -9,7 +9,7 @@ body {
 html {
     margin: 0;
     padding: 0;
-    background-color: #edeef0;
+    background: scroll url("./images/bg.png") repeat;
 }
 main {
     padding-left: 30px;
