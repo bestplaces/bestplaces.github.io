@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400&subset=cyrillic');
 body {
-    background: scroll url("./images/doodles.png") repeat;
     margin: 0;
     padding: 0;
     position: relative;
@@ -354,3 +353,37 @@ body > footer > div > a {
 #hs_m6_img4 {background: url("./images/kh/4.jpeg") 50%/cover;}
 #hs_m6_img5 {background: url("./images/kh/5.jpg") 50%/cover;}
 #hs_m6_img6 {background: url("./images/kh/6.jpg") 50%/cover;}
+#pp_m2_img1 {background: url("./images/tm/1.jpg") 50%/cover;}
+#pp_m2_img2 {background: url("./images/tm/2.jpg") 50%/cover;}
+#pp_m2_img3 {background: url("./images/tm/3.jpg") 20%/cover;}
+#pp_m2_img4 {background: url("./images/tm/4.jpg") 50%/cover;}
+#pp_m2_img5 {background: url("./images/tm/5.jpg") 50%/cover;}
+#pp_m2_img6 {background: url("./images/tm/6.jpg") 50%/cover;}
+#pp_m3_img1 {background: url("./images/db/1.jpg") 50%/cover;}
+#pp_m3_img2 {background: url("./images/db/2.jpg") 50%/cover;}
+#pp_m3_img3 {background: url("./images/db/3.jpg") 20%/cover;}
+#pp_m3_img4 {background: url("./images/db/4.jpg") 50%/cover;}
+#pp_m3_img5 {background: url("./images/db/5.jpg") 50%/cover;}
+#pp_m3_img6 {background: url("./images/db/6.jpg") 50%/cover;}
+#pp_m4_img1 {background: url("./images/et/1.jpg") 50%/cover;}
+#pp_m4_img2 {background: url("./images/et/2.jpg") 50%/cover;}
+#pp_m4_img3 {background: url("./images/et/3.jpg") 20%/cover;}
+#pp_m4_img4 {background: url("./images/et/4.jpg") 50%/cover;}
+#pp_m4_img5 {background: url("./images/et/5.jpg") 50%/cover;}
+#pp_m4_img6 {background: url("./images/et/6.jpg") 50%/cover;}
+#pp_m5_img1 {background: url("./images/ku/1.jpg") 50%/cover;}
+#pp_m5_img2 {background: url("./images/ku/2.jpg") 50%/cover;}
+#pp_m5_img3 {background: url("./images/ku/3.jpg") 20%/cover;}
+#pp_m5_img4 {background: url("./images/ku/4.jpeg") 50%/cover;}
+#pp_m5_img5 {background: url("./images/ku/5.jpg") 50%/cover;}
+#pp_m5_img6 {background: url("./images/ku/6.jpg") 50%/cover;}
+#pp_m6_img1 {background: url("./images/pn/1.jpg") 50%/cover;}
+#pp_m6_img2 {background: url("./images/pn/2.jpg") 50%/cover;}
+#pp_m6_img3 {background: url("./images/pn/3.jpeg") 20%/cover;}
+#pp_m6_img4 {background: url("./images/pn/4.jpg") 50%/cover;}
+#pp_m6_img5 {background: url("./images/pn/5.jpg") 50%/cover;}
+#pp_m6_img6 {background: url("./images/pn/6.jpeg") 50%/cover;}
+
+.hhl {
+    line-height: 1.8rem;
+}
