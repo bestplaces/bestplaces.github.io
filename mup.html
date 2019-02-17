@@ -4,250 +4,7 @@
     <meta charset="UTF-8">
     <title>Самые необычные места</title>
     <link rel="shortcut icon" href="./icons/pyramid.png" type="image/x-icon">
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans');
-        @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400&subset=cyrillic');
-        body {
-            background: scroll url("./images/doodles.png") repeat;
-            margin: 0;
-            padding: 0;
-            position: relative;
-            z-index: 1;
-        }
-        html {
-            margin: 0;
-            padding: 0;
-        }
-        main {
-            padding-left: 30px;
-            padding-right: 30px;
-            padding-top: 1px;
-            background-color: white;
-            background-image: none;
-            border: 1px solid rgb(201, 201, 201);
-        }
-        .mup_nav {
-            display: block;
-            border-radius: 3px;
-            padding: 25px;
-            margin: 20px auto;
-            position: relative;
-            color: #444;
-            box-shadow: 0 0 3px 0 rgba(30,30,30,0.4)
-        }
-        .mup_nav:before {
-            display: block;
-            position: absolute;
-            top: 5px;
-            left: 5px;
-            font-family: arial;
-            font-weight: 700;
-            font-style: normal;
-            color: rgba(0, 0, 0, 0.40);
-        }
-        .mup_nav li > a {
-            display: block;
-            text-decoration: none;
-            color: blue;
-            padding: 5px;
-            margin-left: 20px;
-        }
-
-        .mup_nav li > a:hover {
-            cursor: pointer;
-        }
-        main {
-            width: 980px;
-            margin: 0 auto;
-            font-family: 'PT Sans';
-            font-size: 1.1rem;
-        }
-        h1 {
-            color: #333;
-            font-family: 'Open Sans';
-            text-align: center;
-        }
-        h2 {
-            color: #333;
-            font-family: 'Open Sans';
-            font-weight: 500;
-            font-size: 2rem;
-            text-align: center;
-            line-height: 2rem;
-        }
-        h3 {
-            font-size: 1rem;
-            color: #25ADC4;
-        }
-        em {
-            color: #25ADC4;
-            font-style: normal;
-            font-weight: 600;
-        }
-        p, ul {
-            ​color: #555;​
-            ​line-height: 1.5rem;
-        }
-        strong {
-            color: #444;
-        }
-        .m1 {
-            margin-bottom: 20px;
-            padding-bottom: 8px;
-            margin-top: 80px;
-        }
-        .m2, .m3, .m4, .m5, .m6, .m7, .m8 {
-            padding-top: 10px;
-            margin-bottom: 20px;
-            padding-bottom: 8px;
-        }
-
-        .m2_img, .m3_img, .m4_img, .m5_img, .m6_img, .m7_img, .m8_img {
-            width: 800px;
-            height: 450px;
-            border: 1px solid black;
-            margin: auto;
-            background-color: blanchedalmond;
-            margin-bottom: 20px;
-        }
-
-        body > footer {
-            width: 100%;
-            height: 4vh;
-            background: #000000;
-            padding: 0.5vh 0 0.5vh;
-            font-size: 2vh;
-            font-family: 'Ubuntu', sans-serif;
-        }
-
-        body > footer > div {
-            width: 100%;
-            padding-top: 1vh;
-            text-align: center;
-            color: #474747;
-            line-height: 2vh;
-            display: inline-block;
-        }
-
-        body > footer > div > a {
-            color: #dad7d6;
-            text-decoration: none;
-            line-height: 2vh;
-            display: inline-block;
-        }
-
-        .menu > ul {
-            list-style-type: none;
-            padding-left: 0;
-            margin: 0;
-            height: 70px;
-        }
-
-        .pp_link {
-            background: url("./icons/hills.png") 50%/cover;
-            width: 55px;
-            height: 55px;
-            margin: auto;
-            display: inline-block;
-        }
-
-        .hs_link {
-            background: url("./icons/cabain.png") 50%/cover;
-            width: 55px;
-            height: 55px;
-            margin: auto;
-            display: inline-block;
-        }
-
-        .mup_link {
-            background: url("./icons/pyramid.png") 50%/cover;
-            width: 55px;
-            height: 55px;
-            margin: auto;
-            display: inline-block;
-        }
-
-        .menu a {
-            text-decoration: none;
-            color: white;
-            display: inline-block;
-            position: relative;
-            margin: 0;
-            z-index: 1000;
-            font-size: 20px;
-            height: 55px;
-            width: 55px;
-        }
-
-        #home_a {
-            text-decoration: none;
-            color: white;
-            display: inline-block;
-            position: relative;
-            margin: 0;
-            z-index: 1000;
-            font-size: 20px;
-            height: 25px;
-            width: 77px;
-            font-family: 'Ubuntu', sans-serif;
-        }
-
-        .menu {
-            height: 70px;
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            position: fixed;
-            z-index: 10000;
-            top: 0;
-        }
-
-        .home, .picturesque_place, .historical_sight, .most_unusual_places {
-            display: inline-block;
-            width: 100px;
-            text-align: center;
-            margin: 0;
-            color: #ffffff;
-            font-size: 2.4vh;
-            height: 70px;
-            float: left;
-            padding-top: 7.5px;
-            box-sizing: border-box;
-        }
-
-        .home {
-            margin-left: 5%;
-            padding-top: 22px;
-        }
-
-        #art1 {
-            position: absolute;
-            top: 405px;
-        }
-        #art2 {
-            position: absolute;
-            top: 1250px;
-        }
-        #art3 {
-            position: absolute;
-            top: 2030px;
-        }
-        #art4 {
-            position: absolute;
-            top: 2830px;
-        }
-        #art5 {
-            position: absolute;
-            top: 3810px;
-        }
-        #art6 {
-            position: absolute;
-            top: 4790px;
-        }
-        #art7 {
-            position: absolute;
-            top: 5925px;
-        }
-    </style>
+    <link href="style_part.css" rel="stylesheet">
 </head>
 <body>
         <header>
@@ -295,7 +52,16 @@
                 сноуборда — вам точно туда, в Песчаные дюны в Сычёво. И вы будто в пустыне: огромное
                 песчаное пространство, где можно увидеть даже карликовые растения…               
             </p>
-            <div class="m2_img"></div>
+            
+            <div class="m2_img">
+                <div id="m2_img1" class="all_images"></div>
+                <div id="m2_img2" class="all_images"></div>
+                <div id="m2_img3" class="all_images"></div>
+                <div id="m2_img4" class="all_images"></div>
+                <div id="m2_img5" class="all_images"></div>
+                <div id="m2_img6" class="all_images"></div>
+            </div>
+
             <p>
                 Сноубордисты давно оценили эти песчаные холмы: здесь можно кататься летом, рассекая песок
                 на доске. Впрочем, если борда у вас нет, не расстраивайтесь: в пику активным развлечениям
@@ -317,7 +83,14 @@
                 Piligrim Porto - удивительное место, представляющее собой комплекс построек европейского
                 города 18 века, которое перенесет Вас в незабываемую атмосферу приключений прошлого.             
             </p>
-            <div class="m3_img"></div>
+            <div class="m3_img">
+                <div id="m3_img1" class="all_images"></div>
+                <div id="m3_img2" class="all_images"></div>
+                <div id="m3_img3" class="all_images"></div>
+                <div id="m3_img4" class="all_images"></div>
+                <div id="m3_img5" class="all_images"></div>
+                <div id="m3_img6" class="all_images"></div>
+            </div>
             <p>
                 Piligrim Porto - это универсальная площадка, располагающаяся всего в нескольких км от Москвы, в
                 непосредственной близости к усадебному комплексу «Середниково». Площадка успешно
@@ -338,7 +111,14 @@
                 высота составляет 44 метра, сооружена она из пластика и весит более 55 тонн.
                 Говорят, стоимость строительства превысила один миллион долларов.            
             </p>
-            <div class="m4_img"></div>
+            <div class="m4_img">
+                <div id="m4_img1" class="all_images"></div>
+                <div id="m4_img2" class="all_images"></div>
+                <div id="m4_img3" class="all_images"></div>
+                <div id="m4_img4" class="all_images"></div>
+                <div id="m4_img5" class="all_images"></div>
+                <div id="m4_img6" class="all_images"></div>
+            </div>
             <p>
                 Попасть внутрь пирамиды можно свободно, вход бесплатный. Внутри всех ждет
                 необычное ощущение, что попал в марокканский фонарь — конструкция тускло-тускло
@@ -360,7 +140,14 @@
                 В Воскресенском районе, в окрестностях поселка Фосфоритный располагается одно из самых
                 необычных и экзотических мест Подмосковья — Лопатинский рудник.           
             </p>
-            <div class="m5_img"></div>
+            <div class="m5_img">
+                <div id="m5_img1" class="all_images"></div>
+                <div id="m5_img2" class="all_images"></div>
+                <div id="m5_img3" class="all_images"></div>
+                <div id="m5_img4" class="all_images"></div>
+                <div id="m5_img5" class="all_images"></div>
+                <div id="m5_img6" class="all_images"></div>
+            </div>
             <p>
                 Здесь вас ждут: ослепительно белый и красноватый песок, столь необычный для
                 Подмосковья; темно-серые и желтые барханы; озеро на вершине горы; почти полное
@@ -399,7 +186,14 @@
                 вдумайтесь в эти цифры! Напряжение на этом объекте сопоставимо с секундной выработкой всех
                 электростанций в Российской Федерации.            
             </p>
-            <div class="m6_img"></div>
+            <div class="m6_img">
+                <div id="m6_img1" class="all_images"></div>
+                <div id="m6_img2" class="all_images"></div>
+                <div id="m6_img3" class="all_images"></div>
+                <div id="m6_img4" class="all_images"></div>
+                <div id="m6_img5" class="all_images"></div>
+                <div id="m6_img6" class="all_images"></div>
+            </div>
             <p>
                 Сейчас на полигоне проводятся исключительно гражданские исследования. Поведение
                 электрического тока и его взаимодействие с другими объектами для того и изучается, что бы было
@@ -431,7 +225,14 @@
                 менеджер предложит вам несколько вариантов активного незабываемого отдыха на выбор. У нас
                 будет интересно не только взрослым, но и детям!            
             </p>
-            <div class="m7_img"></div>
+            <div class="m7_img">
+                <div id="m7_img1" class="all_images"></div>
+                <div id="m7_img2" class="all_images"></div>
+                <div id="m7_img3" class="all_images"></div>
+                <div id="m7_img4" class="all_images"></div>
+                <div id="m7_img5" class="all_images"></div>
+                <div id="m7_img6" class="all_images"></div>
+            </div>
             <p>
                 Вне зависимости от возраста вам будет интересно узнать много нового о Земле, космосе, их
                 значении и взаимодействии друг с другом, а также отведать настоящей космической пищи в
@@ -466,7 +267,14 @@
                     плану ГОЭЛРО еще при Ленине, даже вроде бы при его непосредственном содействии, о чем
                     напоминает уникальный семейный памятник Ильичу с женой в селе Ярополец.            
                 </p>
-                <div class="m8_img"></div>
+                <div class="m8_img">
+                    <div id="m8_img1" class="all_images"></div>
+                    <div id="m8_img2" class="all_images"></div>
+                    <div id="m8_img3" class="all_images"></div>
+                    <div id="m8_img4" class="all_images"></div>
+                    <div id="m8_img5" class="all_images"></div>
+                    <div id="m8_img6" class="all_images"></div>
+                </div>
                 <p>
                     Это само по себе интригует: мало кто представляет, как подобное историческое сооружение может
                     выглядеть. Ясно одно — за поворотом узкой и извилистой речки Ламы скрывается не
